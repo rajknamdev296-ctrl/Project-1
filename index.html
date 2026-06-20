@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="DecodeOne – Premium Full Stack Development Training Institute. Learn HTML, CSS, JavaScript, React, Node.js, Java, Python and more. Get industry-ready with live mentorship, placement support, and real-world projects." />
+  <meta name="keywords" content="full stack development, coding bootcamp, web development training, React, Node.js, Java, Python, programming courses" />
+  <meta name="author" content="DecodeOne Tech Institute" />
+  <meta property="og:title" content="DecodeOne – Become a Full Stack Developer" />
+  <meta property="og:description" content="Premium tech training with live mentorship, placement support, and real-world projects." />
+  <meta property="og:type" content="website" />
+  <title>DecodeOne – Become a Full Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar" role="banner">
+    <nav class="nav-container" aria-label="Main navigation">
+      <a href="#hero" class="logo" aria-label="DecodeOne Home">
+        <span class="logo-icon">&#60;/&#62;</span>
+        <span class="logo-text">Decode<span class="logo-accent">One</span></span>
+      </a>
+
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#programs" class="nav-link">Programs</a></li>
+        <li><a href="#technologies" class="nav-link">Technologies</a></li>
+        <li><a href="#benefits" class="nav-link">Benefits</a></li>
+        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="#contact" class="nav-cta-btn">Enroll Now</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="nav-links">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero" id="hero" aria-labelledby="hero-heading">
+      <div class="hero-bg-shapes" aria-hidden="true">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+      </div>
+
+      <div class="hero-container">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          #1 Rated Full Stack Institute
+        </div>
+
+        <h1 class="hero-heading" id="hero-heading">
+          Become a<br />
+          <span class="gradient-text">Full Stack Developer</span>
+        </h1>
+
+        <p class="hero-description">
+          Transform your career with industry-aligned training, live mentorship from senior engineers,
+          and hands-on projects that get you hired at top companies.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#programs" class="btn btn-primary" id="hero-start-btn">
+            <span>Start Learning</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#programs" class="btn btn-secondary" id="hero-explore-btn">Explore Courses</a>
+        </div>
+
+        <div class="hero-stats" role="list" aria-label="Key statistics">
+          <div class="stat-item" role="listitem">
+            <span class="stat-number" data-target="2500" id="stat-students">0</span>
+            <span class="stat-suffix">+</span>
+            <span class="stat-label">Students Trained</span>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat-item" role="listitem">
+            <span class="stat-number" data-target="95" id="stat-placement">0</span>
+            <span class="stat-suffix">%</span>
+            <span class="stat-label">Placement Rate</span>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat-item" role="listitem">
+            <span class="stat-number" data-target="150" id="stat-companies">0</span>
+            <span class="stat-suffix">+</span>
+            <span class="stat-label">Hiring Partners</span>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat-item" role="listitem">
+            <span class="stat-number" data-target="6" id="stat-months">0</span>
+            <span class="stat-suffix"></span>
+            <span class="stat-label">Month Programs</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="code-window">
+          <div class="code-window-bar">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="code-window-title">app.js</span>
+          </div>
+          <div class="code-body">
+            <div class="code-line"><span class="kw">const</span> <span class="var">developer</span> <span class="op">=</span> <span class="fn">new</span> <span class="cls">FullStackDev</span><span class="punc">();</span></div>
+            <div class="code-line blank"></div>
+            <div class="code-line"><span class="var">developer</span><span class="punc">.</span><span class="fn">skills</span> <span class="op">=</span> <span class="punc">[</span></div>
+            <div class="code-line indent"><span class="str">'React'</span><span class="punc">,</span> <span class="str">'Node.js'</span><span class="punc">,</span></div>
+            <div class="code-line indent"><span class="str">'MongoDB'</span><span class="punc">,</span> <span class="str">'Java'</span></div>
+            <div class="code-line"><span class="punc">];</span></div>
+            <div class="code-line blank"></div>
+            <div class="code-line"><span class="var">developer</span><span class="punc">.</span><span class="fn">launch</span><span class="punc">()</span> <span class="comment">// 🚀</span></div>
+            <div class="code-line blank"></div>
+            <div class="code-line"><span class="comment">// Career: UNLOCKED ✓</span></div>
+            <div class="code-cursor">|</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section class="about section" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section-tag">Who We Are</div>
+        <h2 class="section-heading" id="about-heading">Built for <span class="gradient-text">Developers</span>,<br />by Developers</h2>
+
+        <div class="about-grid">
+          <div class="about-content">
+            <p class="about-lead">
+              DecodeOne is a premium technology training institute founded by industry veterans with 10+ years of software engineering experience at Fortune 500 companies.
+            </p>
+            <p class="about-body">
+              We bridge the gap between academic knowledge and real-world industry demands. Our curriculum is updated every quarter to reflect the latest technologies and hiring standards. From absolute beginners to experienced developers looking to upskill — we craft a learning path tailored to your goals.
+            </p>
+            <div class="about-features">
+              <div class="about-feature">
+                <div class="feature-icon">🎯</div>
+                <div>
+                  <strong>Industry-Aligned Curriculum</strong>
+                  <p>Designed with input from hiring managers at top tech companies.</p>
+                </div>
+              </div>
+              <div class="about-feature">
+                <div class="feature-icon">👨‍💻</div>
+                <div>
+                  <strong>Expert Instructors</strong>
+                  <p>Learn from engineers who've worked at Google, Amazon, and startups.</p>
+                </div>
+              </div>
+              <div class="about-feature">
+                <div class="feature-icon">🏗️</div>
+                <div>
+                  <strong>Project-Based Learning</strong>
+                  <p>Build a portfolio of 10+ real-world projects that impress recruiters.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-visual">
+            <div class="about-card-stack">
+              <div class="about-card card-1">
+                <div class="ac-icon">📈</div>
+                <div class="ac-text">
+                  <strong>Career Growth</strong>
+                  <span>Average 3× salary increase post-training</span>
+                </div>
+              </div>
+              <div class="about-card card-2">
+                <div class="ac-icon">⚡</div>
+                <div class="ac-text">
+                  <strong>Fast Track</strong>
+                  <span>Job-ready in just 6 months</span>
+                </div>
+              </div>
+              <div class="about-card card-3">
+                <div class="ac-icon">🌐</div>
+                <div class="ac-text">
+                  <strong>Remote Friendly</strong>
+                  <span>Learn from anywhere in the world</span>
+                </div>
+              </div>
+              <div class="about-glow" aria-hidden="true"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROGRAMS SECTION ===== -->
+    <section class="programs section" id="programs" aria-labelledby="programs-heading">
+      <div class="container">
+        <div class="section-tag">What We Offer</div>
+        <h2 class="section-heading" id="programs-heading">Our Training <span class="gradient-text">Programs</span></h2>
+        <p class="section-sub">Comprehensive, hands-on programs designed to take you from zero to job-ready.</p>
+
+        <div class="programs-grid">
+
+          <article class="program-card featured" aria-label="Full Stack Development Program">
+            <div class="program-badge">Most Popular</div>
+            <div class="program-icon">🔗</div>
+            <h3 class="program-title">Full Stack Development</h3>
+            <p class="program-desc">Master both frontend and backend technologies. Build complete web applications from scratch using the MERN stack and more.</p>
+            <ul class="program-highlights">
+              <li>React + Node.js + MongoDB</li>
+              <li>REST APIs & Authentication</li>
+              <li>DevOps & Deployment</li>
+            </ul>
+            <div class="program-meta">
+              <span class="program-duration">⏱ 6 Months</span>
+              <span class="program-level">🎯 Beginner–Advanced</span>
+            </div>
+            <a href="#contact" class="program-btn">Enroll Now →</a>
+          </article>
+
+          <article class="program-card" aria-label="Frontend Development Program">
+            <div class="program-icon">🎨</div>
+            <h3 class="program-title">Frontend Development</h3>
+            <p class="program-desc">Create stunning, pixel-perfect user interfaces using HTML, CSS, JavaScript, and React with modern design principles.</p>
+            <ul class="program-highlights">
+              <li>HTML5, CSS3, JavaScript ES6+</li>
+              <li>React & Next.js</li>
+              <li>Responsive Design & Animations</li>
+            </ul>
+            <div class="program-meta">
+              <span class="program-duration">⏱ 4 Months</span>
+              <span class="program-level">🎯 Beginner</span>
+            </div>
+            <a href="#contact" class="program-btn">Enroll Now →</a>
+          </article>
+
+          <article class="program-card" aria-label="Backend Development Program">
+            <div class="program-icon">⚙️</div>
+            <h3 class="program-title">Backend Development</h3>
+            <p class="program-desc">Build robust server-side applications, design scalable databases, and create powerful REST & GraphQL APIs.</p>
+            <ul class="program-highlights">
+              <li>Node.js & Express.js</li>
+              <li>MySQL & MongoDB</li>
+              <li>System Design Basics</li>
+            </ul>
+            <div class="program-meta">
+              <span class="program-duration">⏱ 4 Months</span>
+              <span class="program-level">🎯 Intermediate</span>
+            </div>
+            <a href="#contact" class="program-btn">Enroll Now →</a>
+          </article>
+
+          <article class="program-card" aria-label="Java Programming Program">
+            <div class="program-icon">☕</div>
+            <h3 class="program-title">Java Programming</h3>
+            <p class="program-desc">Deep-dive into Java from core concepts to enterprise-grade Spring Boot applications and microservices architecture.</p>
+            <ul class="program-highlights">
+              <li>Core Java & OOP</li>
+              <li>Spring Boot & Hibernate</li>
+              <li>Microservices & Docker</li>
+            </ul>
+            <div class="program-meta">
+              <span class="program-duration">⏱ 5 Months</span>
+              <span class="program-level">🎯 Beginner–Advanced</span>
+            </div>
+            <a href="#contact" class="program-btn">Enroll Now →</a>
+          </article>
+
+          <article class="program-card" aria-label="Python Development Program">
+            <div class="program-icon">🐍</div>
+            <h3 class="program-title">Python Development</h3>
+            <p class="program-desc">Learn Python for web development, automation, data science fundamentals, and backend API development with Django/Flask.</p>
+            <ul class="program-highlights">
+              <li>Python Core & OOP</li>
+              <li>Django & Flask</li>
+              <li>Scripting & Automation</li>
+            </ul>
+            <div class="program-meta">
+              <span class="program-duration">⏱ 3 Months</span>
+              <span class="program-level">🎯 Beginner</span>
+            </div>
+            <a href="#contact" class="program-btn">Enroll Now →</a>
+          </article>
+
+          <article class="program-card" aria-label="Data Structures and Algorithms Program">
+            <div class="program-icon">🧠</div>
+            <h3 class="program-title">Data Structures & Algorithms</h3>
+            <p class="program-desc">Crack coding interviews at top tech companies with intensive DSA training, 500+ practice problems, and mock interviews.</p>
+            <ul class="program-highlights">
+              <li>Arrays, Trees, Graphs</li>
+              <li>Dynamic Programming</li>
+              <li>FAANG Interview Prep</li>
+            </ul>
+            <div class="program-meta">
+              <span class="program-duration">⏱ 3 Months</span>
+              <span class="program-level">🎯 Intermediate</span>
+            </div>
+            <a href="#contact" class="program-btn">Enroll Now →</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TECHNOLOGIES SECTION ===== -->
+    <section class="technologies section" id="technologies" aria-labelledby="tech-heading">
+      <div class="container">
+        <div class="section-tag">Tech Stack</div>
+        <h2 class="section-heading" id="tech-heading">Technologies We <span class="gradient-text">Teach</span></h2>
+        <p class="section-sub">Industry-standard tools and frameworks used by the world's top tech companies.</p>
+
+        <div class="tech-grid" role="list" aria-label="Technologies taught">
+          <div class="tech-card" role="listitem" tabindex="0" aria-label="HTML5">
+            <div class="tech-icon html5">&#60;/&#62;</div>
+            <span class="tech-name">HTML5</span>
+          </div>
+          <div class="tech-card" role="listitem" tabindex="0" aria-label="CSS3">
+            <div class="tech-icon css3">🎨</div>
+            <span class="tech-name">CSS3</span>
+          </div>
+          <div class="tech-card" role="listitem" tabindex="0" aria-label="JavaScript">
+            <div class="tech-icon js">JS</div>
+            <span class="tech-name">JavaScript</span>
+          </div>
+          <div class="tech-card" role="listitem" tabindex="0" aria-label="React">
+            <div class="tech-icon react">⚛</div>
+            <span class="tech-name">React</span>
+          </div>
+          <div class="tech-card" role="listitem" tabindex="0" aria-label="Next.js">
+            <div class="tech-icon nextjs">N</div>
+            <span class="tech-name">Next.js</span>
+          </div>
+          <div class="tech-card" role="listitem" tabindex="0" aria-label="Node.js">
+            <div class="tech-icon nodejs">⬡</div>
+            <span class="tech-name">Node.js</span>
+          </div>
+          <div class="tech-card" role="listitem" tabindex="0" aria-label="Express.js">
+            <div class="tech-icon express">Ex</div>
+            <span class="tech-name">Express.js</span>
+          </div>
+          <div class="tech-card" role="listitem" tabindex="0" aria-label="Spring Boot">
+            <div class="tech-icon spring">🌿</div>
+            <span class="tech-name">Spring Boot</span>
+          </div>
+          <div class="tech-card" role="listitem" tabindex="0" aria-label="Java">
+            <div class="tech-icon java">☕</div>
+            <span class="tech-name">Java</span>
+          </div>
+          <div class="tech-card" role="listitem" tabindex="0" aria-label="Python">
+            <div class="tech-icon python">🐍</div>
+            <span class="tech-name">Python</span>
+          </div>
+          <div class="tech-card" role="listitem" tabindex="0" aria-label="MySQL">
+            <div class="tech-icon mysql">🗄</div>
+            <span class="tech-name">MySQL</span>
+          </div>
+          <div class="tech-card" role="listitem" tabindex="0" aria-label="MongoDB">
+            <div class="tech-icon mongo">🍃</div>
+            <span class="tech-name">MongoDB</span>
+          </div>
+          <div class="tech-card" role="listitem" tabindex="0" aria-label="Git">
+            <div class="tech-icon git">⎇</div>
+            <span class="tech-name">Git</span>
+          </div>
+          <div class="tech-card" role="listitem" tabindex="0" aria-label="GitHub">
+            <div class="tech-icon github">🐙</div>
+            <span class="tech-name">GitHub</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== BENEFITS SECTION ===== -->
+    <section class="benefits section" id="benefits" aria-labelledby="benefits-heading">
+      <div class="container">
+        <div class="section-tag">Why Choose Us</div>
+        <h2 class="section-heading" id="benefits-heading">Student <span class="gradient-text">Benefits</span></h2>
+        <p class="section-sub">Everything you need to succeed — from learning to landing your dream job.</p>
+
+        <div class="benefits-grid">
+          <div class="benefit-card" tabindex="0">
+            <div class="benefit-icon-wrap">
+              <div class="benefit-icon">🏗️</div>
+            </div>
+            <h3 class="benefit-title">Industry Projects</h3>
+            <p class="benefit-desc">Work on 10+ real-world projects that mirror actual industry requirements and build an impressive GitHub portfolio.</p>
+          </div>
+
+          <div class="benefit-card" tabindex="0">
+            <div class="benefit-icon-wrap">
+              <div class="benefit-icon">🤝</div>
+            </div>
+            <h3 class="benefit-title">Internship Assistance</h3>
+            <p class="benefit-desc">Get connected with 50+ partnered companies for internship opportunities during and after your training program.</p>
+          </div>
+
+          <div class="benefit-card" tabindex="0">
+            <div class="benefit-icon-wrap">
+              <div class="benefit-icon">💼</div>
+            </div>
+            <h3 class="benefit-title">Placement Support</h3>
+            <p class="benefit-desc">Dedicated placement cell with 150+ hiring partners. Our 95% placement record speaks for itself.</p>
+          </div>
+
+          <div class="benefit-card" tabindex="0">
+            <div class="benefit-icon-wrap">
+              <div class="benefit-icon">🎙️</div>
+            </div>
+            <h3 class="benefit-title">Live Mentorship</h3>
+            <p class="benefit-desc">Weekly 1-on-1 sessions with senior engineers. Get your doubts resolved and receive personalized guidance.</p>
+          </div>
+
+          <div class="benefit-card" tabindex="0">
+            <div class="benefit-icon-wrap">
+              <div class="benefit-icon">🏅</div>
+            </div>
+            <h3 class="benefit-title">Certification</h3>
+            <p class="benefit-desc">Earn an industry-recognized certificate upon completion, validated by our hiring partners across the country.</p>
+          </div>
+
+          <div class="benefit-card" tabindex="0">
+            <div class="benefit-icon-wrap">
+              <div class="benefit-icon">📄</div>
+            </div>
+            <h3 class="benefit-title">Resume Building</h3>
+            <p class="benefit-desc">Professional resume workshops, LinkedIn profile optimization, and portfolio reviews by HR experts.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS SECTION ===== -->
+    <section class="testimonials section" id="testimonials" aria-labelledby="testimonials-heading">
+      <div class="container">
+        <div class="section-tag">Student Stories</div>
+        <h2 class="section-heading" id="testimonials-heading">What Our Students <span class="gradient-text">Say</span></h2>
+        <p class="section-sub">Real stories from real developers who transformed their careers with DecodeOne.</p>
+
+        <div class="testimonials-grid">
+
+          <article class="testimonial-card" aria-label="Testimonial from Priya Sharma">
+            <div class="testimonial-stars" aria-label="5 out of 5 stars" role="img">★★★★★</div>
+            <blockquote class="testimonial-text">
+              "DecodeOne completely changed my life. I went from being a commerce graduate with zero coding knowledge to landing a React Developer role at a Series B startup — all in 8 months. The mentorship and placement support are absolutely unmatched."
+            </blockquote>
+            <div class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">PS</div>
+              <div class="author-info">
+                <strong class="author-name">Priya Sharma</strong>
+                <span class="author-role">React Developer @ TechNova</span>
+                <span class="author-package">Package: ₹8.5 LPA</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card featured-testimonial" aria-label="Testimonial from Arjun Mehta">
+            <div class="testimonial-stars" aria-label="5 out of 5 stars" role="img">★★★★★</div>
+            <blockquote class="testimonial-text">
+              "The Full Stack program here is genuinely world-class. The instructors are working professionals who explain concepts with real-world context. I built 3 full applications during training, and my GitHub portfolio helped me ace interviews at multiple companies."
+            </blockquote>
+            <div class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">AM</div>
+              <div class="author-info">
+                <strong class="author-name">Arjun Mehta</strong>
+                <span class="author-role">Full Stack Engineer @ CloudBase</span>
+                <span class="author-package">Package: ₹12 LPA</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card" aria-label="Testimonial from Sneha Patel">
+            <div class="testimonial-stars" aria-label="5 out of 5 stars" role="img">★★★★★</div>
+            <blockquote class="testimonial-text">
+              "I was a fresher struggling to understand DSA and Java. After joining DecodeOne's Java + DSA track, I cracked 3 FAANG interviews in a row. The mock interviews were the game-changer. I now work at a product company I only dreamed about before."
+            </blockquote>
+            <div class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">SP</div>
+              <div class="author-info">
+                <strong class="author-name">Sneha Patel</strong>
+                <span class="author-role">Software Engineer @ InnovateTech</span>
+                <span class="author-package">Package: ₹10 LPA</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section class="contact section" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="section-tag">Get In Touch</div>
+            <h2 class="section-heading left-align" id="contact-heading">Start Your <span class="gradient-text">Journey</span> Today</h2>
+            <p class="contact-desc">Ready to transform your career? Fill out the form and our team will reach out within 24 hours to discuss the best program for you.</p>
+
+            <div class="contact-details">
+              <div class="contact-detail-item">
+                <div class="detail-icon" aria-hidden="true">📍</div>
+                <div>
+                  <strong>Location</strong>
+                  <span>xyz</span>
+                </div>
+              </div>
+              <div class="contact-detail-item">
+                <div class="detail-icon" aria-hidden="true">📞</div>
+                <div>
+                  <strong>Phone</strong>
+                  <span><a href="tel:+919876543210">+91 98765 xxxxx</a></span>
+                </div>
+              </div>
+              <div class="contact-detail-item">
+                <div class="detail-icon" aria-hidden="true">✉️</div>
+                <div>
+                  <strong>Email</strong>
+                  <span><a href="mailto:hello@decodeone.in">hello@decodeone.in</a></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-wrap">
+            <form class="contact-form" id="contact-form" novalidate aria-label="Contact form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="form-name" class="form-label">Full Name <span aria-hidden="true">*</span></label>
+                  <input type="text" id="form-name" name="name" class="form-input" placeholder="Your full name" required autocomplete="name" aria-required="true" />
+                  <span class="form-error" id="name-error" role="alert" aria-live="polite"></span>
+                </div>
+                <div class="form-group">
+                  <label for="form-email" class="form-label">Email Address <span aria-hidden="true">*</span></label>
+                  <input type="email" id="form-email" name="email" class="form-input" placeholder="your@email.com" required autocomplete="email" aria-required="true" />
+                  <span class="form-error" id="email-error" role="alert" aria-live="polite"></span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="form-phone" class="form-label">Phone Number <span aria-hidden="true">*</span></label>
+                <input type="tel" id="form-phone" name="phone" class="form-input" placeholder="+91 98765 43210" required autocomplete="tel" aria-required="true" />
+                <span class="form-error" id="phone-error" role="alert" aria-live="polite"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="form-program" class="form-label">Interested Program</label>
+                <select id="form-program" name="program" class="form-input form-select" aria-label="Select a program">
+                  <option value="">Select a program…</option>
+                  <option value="fullstack">Full Stack Development</option>
+                  <option value="frontend">Frontend Development</option>
+                  <option value="backend">Backend Development</option>
+                  <option value="java">Java Programming</option>
+                  <option value="python">Python Development</option>
+                  <option value="dsa">Data Structures & Algorithms</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="form-message" class="form-label">Message <span aria-hidden="true">*</span></label>
+                <textarea id="form-message" name="message" class="form-input form-textarea" placeholder="Tell us about your background and goals…" required aria-required="true"></textarea>
+                <span class="form-error" id="message-error" role="alert" aria-live="polite"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-full" id="contact-submit">
+                <span class="btn-text">Send Message</span>
+                <span class="btn-loader" aria-hidden="true"></span>
+              </button>
+
+              <div class="form-success" id="form-success" role="alert" aria-live="polite" hidden>
+                ✅ Thank you! We'll get back to you within 24 hours.
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="footer" role="contentinfo">
+    <div class="footer-main">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="#hero" class="logo" aria-label="DecodeOne Home">
+              <span class="logo-icon">&#60;/&#62;</span>
+              <span class="logo-text">Decode<span class="logo-accent">One</span></span>
+            </a>
+            <p class="footer-tagline">Empowering the next generation of software developers with world-class training, mentorship, and placement support.</p>
+            <div class="footer-social" aria-label="Social media links">
+              <a href="#" class="social-link" aria-label="Follow us on Twitter/X" id="social-twitter">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.743l7.73-8.835L1.254 2.25H8.08l4.258 5.63 5.906-5.63zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              </a>
+              <a href="#" class="social-link" aria-label="Follow us on LinkedIn" id="social-linkedin">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              </a>
+              <a href="#" class="social-link" aria-label="Follow us on Instagram" id="social-instagram">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+              </a>
+              <a href="#" class="social-link" aria-label="Subscribe on YouTube" id="social-youtube">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+              </a>
+              <a href="#" class="social-link" aria-label="Join our GitHub" id="social-github">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-links-col">
+            <h3 class="footer-col-title">Quick Links</h3>
+            <ul class="footer-links" role="list">
+              <li><a href="#about" class="footer-link">About Us</a></li>
+              <li><a href="#programs" class="footer-link">Programs</a></li>
+              <li><a href="#technologies" class="footer-link">Technologies</a></li>
+              <li><a href="#benefits" class="footer-link">Benefits</a></li>
+              <li><a href="#testimonials" class="footer-link">Testimonials</a></li>
+              <li><a href="#contact" class="footer-link">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links-col">
+            <h3 class="footer-col-title">Programs</h3>
+            <ul class="footer-links" role="list">
+              <li><a href="#programs" class="footer-link">Full Stack Development</a></li>
+              <li><a href="#programs" class="footer-link">Frontend Development</a></li>
+              <li><a href="#programs" class="footer-link">Backend Development</a></li>
+              <li><a href="#programs" class="footer-link">Java Programming</a></li>
+              <li><a href="#programs" class="footer-link">Python Development</a></li>
+              <li><a href="#programs" class="footer-link">DSA & Interview Prep</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links-col">
+            <h3 class="footer-col-title">Contact Info</h3>
+            <address class="footer-contact" style="font-style: normal;">
+              <div class="footer-contact-item">
+                <span aria-hidden="true">📍</span>
+                <span>123 Tech Hub, Bengaluru,<br />Karnataka 560001</span>
+              </div>
+              <div class="footer-contact-item">
+                <span aria-hidden="true">📞</span>
+                <a href="tel:+919876543210">+91 98765 43210</a>
+              </div>
+              <div class="footer-contact-item">
+                <span aria-hidden="true">✉️</span>
+                <a href="mailto:hello@decodeone.in">hello@decodeone.in</a>
+              </div>
+              <div class="footer-contact-item">
+                <span aria-hidden="true">⏰</span>
+                <span>Mon–Sat: 9 AM – 7 PM IST</span>
+              </div>
+            </address>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="footer-copyright">
+          &copy; <span id="footer-year"></span> DecodeOne Tech Institute. All rights reserved.
+        </p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Refund Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top" title="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
