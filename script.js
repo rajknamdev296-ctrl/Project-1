@@ -1,5 +1,5 @@
 /* =========================================
-   DECODEONE – JavaScript
+   FineTech – JavaScript
    ========================================= */
 
 'use strict';
